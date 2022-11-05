@@ -887,7 +887,7 @@ h6 {
     border: 6px solid #fff;
 }
 .aali_tm_about .center {
-    width: 44%;
+    width: 54%;
     padding: 0px 100px 0px 140px;
 }
 .aali_tm_about .center .title {
@@ -1213,8 +1213,9 @@ h6 {
     right: 0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
 }
 .aali_tm_portfolio .portfolio_list ul li .list_inner .overlay {
     position: absolute;
@@ -1505,12 +1506,12 @@ h6 {
 .aali_tm_modalbox .additional_images ul li {
     margin: 0px 0px 30px 0px;
     float: left;
-    width: 50%;
+    width: 100%;
     padding-left: 30px;
 }
-.aali_tm_modalbox .additional_images ul li:nth-child(3n-2) {
+/* .aali_tm_modalbox .additional_images ul li:nth-child(3n-2) {
     width: 100%;
-}
+} */
 .aali_tm_modalbox .additional_images ul li .list_inner {
     width: 100%;
     height: auto;
