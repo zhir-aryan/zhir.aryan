@@ -1321,7 +1321,7 @@ h6 {
     position: absolute;
     top: 70px;
     bottom: 70px;
-    width: 968px;
+    width: 85vw;
     left: 50%;
     transform: translateX(-50%);
     background-color: #fff;
@@ -2465,9 +2465,6 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-input[type='number'] {
-    -moz-appearance: textfield; /* Firefox */
-}
 .aali_tm_contact .message_area {
     width: 100%;
     float: left;
@@ -3068,7 +3065,7 @@ input[type='number'] {
         right: 20px;
     }
     .aali_tm_modalbox .box_inner {
-        width: 800px;
+        width: 85vw;
     }
 }
 @media (max-width: 1040px) {
@@ -3231,7 +3228,7 @@ input[type='number'] {
         margin-bottom: 20px;
     }
     .aali_tm_modalbox .box_inner {
-        width: 500px;
+        width: 80vw;
     }
 }
 @media (max-width: 768px) {
@@ -3377,7 +3374,7 @@ input[type='number'] {
         padding-bottom: 135px;
     }
     .aali_tm_modalbox .box_inner {
-        width: 300px;
+        width: 88vw;
     }
     .aali_tm_modalbox .close .svg {
         width: 30px;
@@ -3396,8 +3393,14 @@ input[type='number'] {
     .aali_tm_modalbox .service_popup_informations .main_title h3 {
         font-size: 22px;
     }
+    .main_details {
+        display: flex;
+        flex-direction: column;
+    }
+    .aali_tm_modalbox .main_details .textbox {
+        width: 100%;
+    }
 }
-
 .pad {
     padding-left: 20px;
 }
