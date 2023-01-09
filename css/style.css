@@ -76,6 +76,11 @@ img.svg {
     color: #aaa6b2;
 }
 
+::selection {
+    background-color: #ea4343;
+    color: white;
+}
+
 ::placeholder {
     /* Most modern browsers support this now. */
     color: #aaa6b2;
